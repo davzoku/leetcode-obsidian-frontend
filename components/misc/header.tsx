@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import Search from './search';
+import Image from 'next/image';
 
 const Header = () => {
   const [top, setTop] = useState(true);
@@ -19,8 +20,8 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <h2 className="shrink-0 mr-4 text-2xl font-bold tracking-tight md:tracking-tighter leading-tight">
-            <Link href="/" className="block hover:underline" aria-label="My Blog">
-              My Blog.
+            <Link href="/home" className="flex items-center block hover:underline" aria-label="My Leetcode Solutions">
+              <Image src='/logo.png' alt='Brand Logo' width={50} height={50} /> Walter Teng.
             </Link>
           </h2>
           <ul className="flex grow justify-end flex-wrap items-center">

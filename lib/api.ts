@@ -37,7 +37,7 @@ function parseFileToObj(pathToObj: string) {
   data['content'] = content
 
   // modify obj
-  if (typeof data['excerpt'] === 'undefined') {
+  if (typeof data['excerpt'] === 'undefined' || data['excerpt'] == '-') {
     data['excerpt'] = getMDExcerpt(content, 500);
   }
   if (typeof data['title'] === 'undefined') {

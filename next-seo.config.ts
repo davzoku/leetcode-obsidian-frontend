@@ -1,16 +1,16 @@
 import { DefaultSeoProps } from "next-seo";
 
-const description = "Host your second brain with NextJS"
+const description = "Walter's Leetcode Solutions"
 // See https://www.npmjs.com/package/next-seo for more options
 const config: DefaultSeoProps = {
-  titleTemplate: "%s | Linked Blog Starter",
-  defaultTitle: "Linked Blog Starter | My Second Brain",
+  titleTemplate: "%s | Walter's Leetcode Solutions",
+  defaultTitle: "Walter's Leetcode Solutions",
   description,
 
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    title: 'Linked Blog Starter',
+    title: "Walter's Leetcode Solutions",
     description,
   },
   additionalLinkTags: [
@@ -38,7 +38,7 @@ const config: DefaultSeoProps = {
     },
     {
       rel: "manifest",
-      href: "/favicon/site.webmanifest"
+      href: "/manifest.json"
     }
   ]
 };
