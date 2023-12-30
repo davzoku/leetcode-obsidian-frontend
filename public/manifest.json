@@ -3,7 +3,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/home?utm_source=homescreen",
   "name": "Walter's Leetcode Solutions",
   "short_name": "Walter's Leetcode Solutions",
   "description": "Walter's Leetcode Solutions",
